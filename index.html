@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hindi Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="quiz-card">
+      <div class="question-box">
+        <p id="question-text">जब तुमने मुझे पहली बार देखा, तो क्या सोचा?</p>
+      </div>
+      <div class="answer-box">
+        <div class="timer-section">
+          <div class="timer-circle">
+            <svg class="timer-svg" viewBox="0 0 100 100">
+              <circle class="timer-background" cx="50" cy="50" r="45"></circle>
+              <circle class="timer-progress" id="timer-progress" cx="50" cy="50" r="45"></circle>
+            </svg>
+            <span class="timer-text" id="time">30</span>
+          </div>
+        </div>
+        <button id="next-question">Next Question</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
